@@ -14,7 +14,7 @@ typedef struct{
     float font_size;
     float line_space;
 } Ui;
-#define MAX_INPUT 100
+#define MAX_INPUT 1024
 
 typedef struct {
     char text[MAX_INPUT+1];

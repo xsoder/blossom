@@ -50,7 +50,7 @@ void remove_##name##_DA(name##_DA *array, size_t index) { \
 void free_##name##_DA(name##_DA *array) { \
     free(array->data); \
     free(array); \
-}
+}\
 
 #define EXPORT_DA_TYPES() \
     DECLARE_DA(const char *, String)\

@@ -27,7 +27,6 @@ void ui_init(Ui *ui)
 }
 void ui_update(Ui *ui, Input *input)
 {
-
     if(IsKeyDown(KEY_LEFT_CONTROL) || IsKeyDown(KEY_RIGHT_CONTROL)){
         if(IsKeyPressed(KEY_S)){
             if(!SaveFileText(ui->load_text,"Hello world")){
