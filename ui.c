@@ -35,5 +35,5 @@ void ui_update(Ui *ui, Input *input)
             }
         }
     }
-    DrawText(input->text, input->col, input->row, 20, BLUE);
-}
+    DrawText(input->text, input->col, input->row, 20, GREEN);
+    }
